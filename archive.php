@@ -13,10 +13,10 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
-
+<div id="contentContainer">
+<div id="leftCol">
+<div class="blankH" style="width: 10px; height: 180px;"></div>
+<div class="blankH" style="width: 180px; height: 14px;"></div>
 <?php
 	/* Queue the first post, that way we know
 	 * what date we're dealing with (if that is the case).
@@ -55,7 +55,8 @@ get_header(); ?>
 ?>
 
 			</div><!-- #content -->
-		</div><!-- #container -->
 
+<div id="rightCol">
 <?php get_sidebar(); ?>
+</div><!-- #container -->
 <?php get_footer(); ?>

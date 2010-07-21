@@ -9,10 +9,11 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
-
-				<h1 class="page-title"><?php
+<div id="contentContainer">
+<div id="leftCol">
+<div class="blankH" style="width: 10px; height: 180px;"></div>
+<div class="blankH" style="width: 180px; height: 14px;"></div>	
+<h1 class="page-title"><?php
 					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
 				<?php
@@ -28,7 +29,7 @@ get_header(); ?>
 				?>
 
 			</div><!-- #content -->
-		</div><!-- #container -->
-
+<div id="rightCol">
 <?php get_sidebar(); ?>
+		</div><!-- #container -->
 <?php get_footer(); ?>

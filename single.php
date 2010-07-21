@@ -9,8 +9,10 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+<div id="contentContainer">
+<div id="leftCol">
+<div class="blankH" style="width: 10px; height: 180px;"></div>
+<div class="blankH" style="width: 180px; height: 14px;"></div>
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -64,7 +66,7 @@ get_header(); ?>
 <?php endwhile; // end of the loop. ?>
 
 			</div><!-- #content -->
-		</div><!-- #container -->
-
+<div id="rightCol">
 <?php get_sidebar(); ?>
+		</div><!-- #container -->
 <?php get_footer(); ?>

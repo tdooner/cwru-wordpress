@@ -8,9 +8,10 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
+<div id="contentContainer">
+<div id="leftCol">
+<div class="blankH" style="width: 10px; height: 180px;"></div>
+<div class="blankH" style="width: 180px; height: 14px;"></div>
 
 				<h1 class="page-title"><?php
 					printf( __( 'Tag Archives: %s', 'twentyten' ), '<span>' . single_tag_title( '', false ) . '</span>' );
@@ -24,7 +25,8 @@ get_header(); ?>
  get_template_part( 'loop', 'tag' );
 ?>
 			</div><!-- #content -->
-		</div><!-- #container -->
 
+<div id="rightCol">
 <?php get_sidebar(); ?>
+</div><!-- #container -->
 <?php get_footer(); ?>

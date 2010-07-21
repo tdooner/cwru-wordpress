@@ -43,7 +43,7 @@
                	<div id="feature">
                 <div id="featureHolder">
                 
-                <div class="featureImg"><img src="<?php header_image(); ?>" width="960" height="245" alt="" /></div>
+                <div class="featureImg"><img src="<?php header_image(); ?>" width="940" height="198" alt="" /></div>
                         
 </div><!--end of feature holder-->
 </div><!--end of feature wrapper-->

@@ -1,10 +1,9 @@
 /*
 Theme Name: CWRU theme
-Theme URI: http://wordpress.org/
-Description: The 2010 default theme for WordPress.
-Author: the WordPress team
+Description: The CWRU UMC theme mashed together with the 2010 default theme for WordPress.
+Author: make-lab
 Version: 1.0
-Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+Tags: black, blue, white, two-columns, fixed-width, custom-header
 */
 
 
@@ -64,14 +63,14 @@ img{border:none; }
 }
 #featureHolder {
 	position:relative;
-	width:960px;
+	width:940px;
 	margin: auto;
-	height: 245px;
+	height: 198px;
 	
 }
 .featureImg {
-	height: 245px;
-	width: 960px;
+	height: 198px;
+	width: 940px;
 	margin:auto;
 	border:none;
 }

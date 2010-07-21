@@ -8,9 +8,11 @@
  */
 
 get_header(); ?>
+<div id="contentContainer">
+<div id="leftCol">
+<div class="blankH" style="width: 10px; height: 180px;"></div>
+<div class="blankH" style="width: 180px; height: 14px;"></div>
 
-	<div id="container">
-		<div id="content" role="main">
 
 			<div id="post-0" class="post error404 not-found">
 				<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
