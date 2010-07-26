@@ -35,7 +35,9 @@ h1,h2,h3,h4,h5 {
 img{border:none; }
 
 
-
+iframe#cwruHeader {
+	border-bottom:1px solid #999999;
+}
 /******************************************** Layout Elements **********************************/
 
 #contentWrapper {
@@ -203,12 +205,6 @@ img{border:none; }
 	min-height: 600px;
 
 }
-#rightCol div h3  {
-	text-transform: uppercase;
-	font-weight:normal;
-	padding-bottom:2px;
-	border-bottom: solid 2px #e5e5e5;
-}
 #leftCol img {
 	border: 1px solid #E8E8E8;
 	margin-top:7px;
@@ -293,6 +289,12 @@ border:none;
 	float:right;
 	
 }
+#rightCol div h3  {
+	text-transform: uppercase;
+	font-weight:normal;
+	padding-bottom:2px;
+	border-bottom: solid 2px #e5e5e5;
+}
 #rightCol div h4 {
 	font-weight: normal;
 	text-transform: uppercase;
@@ -314,7 +316,7 @@ border:none;
 	font-family: Helvetica, Aria, sans-serif;
 	font-size: .8em;
 	line-height: 1.4;
-
+	list-style:none;
 }
 .sideContent ul li {
 	text-align: left;

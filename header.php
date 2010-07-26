@@ -37,7 +37,7 @@
 
 <!--cwru main header-->
 
-<div><iframe src="http://case.edu/cwruheader/cwru-header.html" width="100%" height="55" frameborder="0" scrolling="no"></iframe></div> 
+<div><iframe src="http://case.edu/cwruheader/cwru-header.html" width="100%" height="55" frameborder="0" scrolling="no" id="cwruHeader"></iframe></div> 
 	
 				<!--feature-->
                	<div id="feature">
