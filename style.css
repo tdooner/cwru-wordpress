@@ -197,7 +197,8 @@ iframe#cwruHeader {
 
 
 #leftCol {
-	width: 660px;
+	width: 620px;
+	padding:20px;
 	margin-top: 10px;
 	position: relative;
 	float:left;
@@ -323,7 +324,6 @@ border:none;
 	display: block;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-	border-bottom: 1px solid #E9E9E9;
 	list-style-type: none;	
 
 }
