@@ -17,6 +17,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico"/>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -43,7 +44,7 @@
                	<div id="feature">
                 <div id="featureHolder">
                 
-                <div class="featureImg"><img src="<?php header_image(); ?>" width="940" height="198" alt="" /></div>
+		<div class="featureImg"><?php if(function_exists('meteor_slideshow')) { meteor_slideshow(); } ?></div>
                         
 </div><!--end of feature holder-->
 </div><!--end of feature wrapper-->
@@ -56,7 +57,8 @@
 </div>
 </div>
 
-<div class="breadcrumb"><div class="breadcrumbHome"><div class="breadcrumbC"><h2><strong><?php bloginfo( 'name' ); ?></strong></h2></div><div class="sideLink">&raquo; <?php bloginfo('description'); ?></div></div></div>
+<div class="breadcrumb"><div class="breadcrumbHome"><div class="breadcrumbC"><h2><strong><?php bloginfo( 'name' ); ?></strong></h2></div>
+<div class="sideLink">&raquo; <?php bloginfo('description'); ?></div></div></div>
 
 
 
