@@ -27,7 +27,7 @@ get_header(); ?>
 				</div><!-- #post-## -->
 
 <?php endwhile; ?>
-
+<hr/><br/>
 				<?php wp_list_pages('title_li=&child_of='.$post->ID.''); ?>
 			</div><!-- #content -->
 <div id="rightCol">
