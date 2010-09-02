@@ -22,13 +22,7 @@
 </div>
 <div class="simpleFooterMCol">
 <div>
-<ul>
-<li><a href="#">Link one</a></li>
-<li><a href="#">Link two</a></li>
-<li><a href="#">Link three</a></li>
-<li><a href="#">Link four</a></li>
-<li><a href="#" class="borderN">Link five</a></li>
-</ul>
+				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'bottomlinks' ) ); ?>
 </div>
 
 </div>
