@@ -191,7 +191,45 @@ iframe#cwruHeader {
 	background-color: #D7D7D7;
 	color: #626262;
 }
-
+/************************************* Top Breadcrumb Bar ****************************/
+#legendWrapper {
+	background-color:#626262;
+	margin:0;
+	position:relative;
+	width:100%;
+}
+#legend {
+	height:90px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:1000px;
+}
+#legend .legendRcol a:link, #legend .legendLcol a:link, #legend .legendRcol a:visited, #legend .legendLcol a:visited {
+	color:#999999;
+}
+.legendRcol {
+	bottom:20px;
+	color:#CCCCCC;
+	display:block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:1.1em;
+	font-weight:normal;
+	position:absolute;
+	right:3px;
+	text-align:left;
+}
+.legendLcol {
+	bottom:20px;
+	color:#CCCCCC;
+	display:block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:1.1em;
+	font-weight:normal;
+	left:0;
+	position:absolute;
+	text-align:left;
+}
 
 /************************************************************** Left Column ************/
 
