@@ -45,7 +45,7 @@
 	<div class="legendRcol"><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></div>
 		<div class="legendLcol">
 			<?php
-			if (function_exists("bcn_display2")) {
+			if (function_exists("bcn_display")) {
 				bcn_display();
 			}
 ?>
