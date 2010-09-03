@@ -13,7 +13,7 @@
  * @since Twenty Ten 1.0
  */
 
-get_header(); ?>
+get_header('home'); ?>
 <div id="contentContainer">
 <div id="leftCol">
 <div class="blankH" style="width: 10px; height: 180px;"></div>
