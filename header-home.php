@@ -39,19 +39,15 @@
 <!--cwru main header-->
 
 <div><iframe src="http://case.edu/cwruheader/cwru-header.html" width="100%" height="55" frameborder="0" scrolling="no" id="cwruHeader"></iframe></div> 
-
-<div id="legendWrapper">	
-	<div id="legend">
-	<div class="legendRcol"><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></div>
-		<div class="legendLcol">
-			<?php
-			if (function_exists("bcn_display")) {
-				bcn_display();
-			}
-?>
-		</div>
-	</div>
-</div>
+	
+				<!--feature-->
+               	<div id="feature">
+                <div id="featureHolder">
+                
+		<div class="featureImg"><?php if(function_exists('meteor_slideshow')) { meteor_slideshow(); } ?></div>
+                        
+</div><!--end of feature holder-->
+</div><!--end of feature wrapper-->
 
 
 <!--[if IE]><style type="text/css">.topNav ul ul {position:absolute; left:0; top:31px;}</style><![endif]-->
