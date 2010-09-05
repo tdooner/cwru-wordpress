@@ -396,102 +396,7 @@ border:none;
 	border: 1px solid #E8E8E8;
 }
 
-/************************************************************** Blue bknd footer **********/
 
-#footer {
-	width: 100%;
-	position: relative;
-	background-color: #0a304e;
-	border-top: 2px solid #C8CACB;
-	background-attachment: scroll;
-	background-image: url(../images/footerBg.png);
-	background-repeat: repeat-x;
-	background-position: top;
-	margin: 30px 0 0 0;
-}
-.footerContent {
-	height: 120px;
-	width: 960px;
-	margin: auto;
-}
-.footerLeftCol {
-	float: left;
-	position: relative;
-	width:480px;
-	margin-top: 30px;
-}
-.footerMiddleCol, .footerRightCol {
-	float: left;
-	width:150px;
-	margin: 25px 0 0 10px;
-	padding:0;
-
-}
-#footer .footerContent .footerMiddleCol ul, #footer .footerContent .footerRightCol ul {
-	padding:0;
-	margin:0;
-}
-#footer .footerContent .footerMiddleCol ul li, #footer .footerContent .footerRightCol ul li {
-	list-style-type: none;
-}
-.footerMiddleCol ul li a:link, .footerMiddleCol ul li a:visited, .footerRightCol ul li a:link, .footerRightCol ul li a:visited {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: .75em;
-	color: #B8B8B8;
-	font-weight: normal;
-	line-height: 1.9;
-	display: block;
-	text-align:left;
-
-}
-#footer .footerContent .footerMiddleCol ul li a:hover {
-	font-weight: normal;
-	text-decoration: underline;		
-}
-.footerLeftC {
-	position: absolute;
-	left: 0px;
-	top: 30px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: .7em;
-	color: #B8B8B8;
-	font-weight: normal;
-	line-height: 1.6;
-	width: 400px;
-}
-
-/* footer search elements */
-
-.footerSearch input {
-	border: none;
-	background-color: #315f80;
-	position: absolute;
-	right: 30px;
-	width: 140px; height: 20px;
-	top: 0;
-	float: right;
-	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #999;
-	padding: 0 0 0 3px;
-	font-weight: normal;
-	font-size: .8em;
-	line-height: 1.2;
-}
-.footerSearch {
-	height: 20px;
-	width: 175px;
-	float: left;
-	position: relative;
-}
-.footerSearch form .btn {
-	width: 30px;
-	position: absolute;
-	right: 0;
-}
-.footerLeftCol .footerLeftC a {
-	color: #999;
-}
 
 /************************************************************** Simple footer **********/
 
@@ -527,6 +432,7 @@ border:none;
 	left: 40px;
 	width: 700px;
 	float: left;
+	overflow: hidden;
 
 }
 #simpleFooter .simpleFooterContent .simpleFooterMCol ul li {
