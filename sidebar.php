@@ -12,11 +12,7 @@
 			<ul class="xoxo">
 
 <?php
-			if ( is_singular() && 	has_post_thumbnail( $post->ID ) &&
-				( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnail' ) ) &&
-				$image[1] >= HEADER_IMAGE_WIDTH ) :
-				echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
-			endif;
+	echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
 
 	/* When we call the dynamic_sidebar() function, it'll spit out
 	 * the widgets for that widget area. If it instead returns false,
