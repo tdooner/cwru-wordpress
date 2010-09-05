@@ -53,7 +53,7 @@
 <!--[if IE]><style type="text/css">.topNav ul ul {position:absolute; left:0; top:31px;}</style><![endif]-->
 <div id="umcNav">
 <div id="topNavWrapper">
-				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'topnav' ) ); ?>
+				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'topnav' , 'theme_location' => 'primary') ); ?>
 </div>
 </div>
 
