@@ -22,9 +22,8 @@
 </div>
 <div class="simpleFooterMCol">
 <div>
-				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'bottomlinks' ) ); ?>
 </div>
-
+<?php wp_nav_menu( array('theme_location' => 'secondary') );?>
 </div>
 </div><!--end of footer content-->
 <div class="legal">&copy; 2010 Case Western Reserve University, Cleveland, Ohio 44106, 216.368.2000 (<a href="http://www.case.edu/legal.html">legal notice</a>)</div>

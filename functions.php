@@ -94,8 +94,8 @@ function twentyten_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Navigation', 'twentyten' ),
-		'footer' => __( 'Footer Links', 'twentyten' ),
+		'primary' => __( 'Primary Navigation', 'cwru' ),
+		'secondary' => __( 'Bottom Menu', 'cwru' ),
 	) );
 
 	// This theme allows users to set a custom background
